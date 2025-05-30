@@ -1,0 +1,19 @@
+{% extends "layouts/main.html" %}
+
+{% set pageName="Home" %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">
+      {{ serviceName }}
+    </h1>
+    <p class="govuk-body">This prototype demonstrates how to manage version control and routing. Refer to <a target="_blank" href="/docs/GOVUK_prototype_kit_version_control.md" class="govuk-link">the guidance</a> for an explanation on how this works</p>
+    <h2 class="govuk-heading-m">Examples</h2>
+    <p class="govuk-body"><a href="/v1/question-1" class="govuk-link">Version 1</a></p>
+    <p class="govuk-body"><a href="/v2/question-1" class="govuk-link">Version 2</a></p>
+  </div>
+</div>
+
+{% endblock %}
