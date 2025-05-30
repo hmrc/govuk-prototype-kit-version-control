@@ -1,0 +1,21 @@
+{% extends "layouts/main.html" %}
+
+{% set pageName="Question 2" %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+        <!-- Don't add an 'action' attribute to the <form> element-->
+        <form method="post" novalidate>
+            <span class="govuk-caption-xl">Version 1</span>
+            <h1 class="govuk-heading-xl">Question 2</h1>
+            <button type="submit" class="govuk-button" data-module="govuk-button">
+                Continue
+            </button>
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}
